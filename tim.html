@@ -1,0 +1,46 @@
+<!DOCTYPE html public"-W3C////DTD HTML 4.0 Transitional//EN">
+<head>
+    <title> New Documment</title>
+    <meta name="Generator" content="Editplus">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <style>
+        html,body{
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background: black;
+        }
+        canvas{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<canvas id="pinkboard"></canvas>
+<script>
+    /*
+    *Settings
+    */
+   var settings ={
+    particles:{
+        length:500,//maxium amount of particles
+        duration: 2,//particle duration in sec
+        velocity:100,//particle velocity in pixcels/sec
+        effect :-0.75,//particle size in pixcels
+    }
+   };
+
+   /*
+   * RequestAnimationFrame polyfill by Erik Moller
+   */
+    (function(){var b=0;var c=["ms","moz","webkit","o"];for(var a=0;a<c.length&&!window.requestAnimationFrame;
+    ++a){window.requestAnimationFrame=window[c[a]+"RequestAnimationFrame"];window.cancelAnimationFrame }})
+</script>
+<body>
+    
+</body>
+</html>
